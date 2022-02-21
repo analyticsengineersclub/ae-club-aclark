@@ -11,4 +11,3 @@ LEFT JOIN analytics-engineers-club.coffee_shop.customers AS c
   ON o.customer_id = c.id
 GROUP BY 1,2,3
 ORDER BY first_order_at 
-LIMIT 5
