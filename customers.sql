@@ -11,5 +11,5 @@ SELECT
 FROM analytics-engineers-club.coffee_shop.orders AS o
 LEFT JOIN analytics-engineers-club.coffee_shop.customers AS c
   ON o.customer_id = c.id
-GROUP BY 1,2,3
+GROUP BY c.id, c.name, c.email
 ORDER BY first_order_at 
