@@ -1,4 +1,5 @@
 /* For each customer, we want to know how many orders they have placed, and when they placed their first order. */
+#comment
 #adairs comment
 SELECT 
    c.id AS customer_id
